@@ -16,10 +16,10 @@
 
 
 
-let myDate = new Date();
-let myDay = myDate.getDay();
+//let myDate = new Date();
+//let myDay = myDate.getDay();
 let today = "";
-let myDay = Tuesday; // Forcing it to be Tuesday for testing
+let myDay = 2; // Forcing it to be Tuesday for testing
 
 
 switch(myDay){
