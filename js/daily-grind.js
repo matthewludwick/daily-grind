@@ -156,7 +156,7 @@ console.log(coffee);
 document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
 
 //change background color of HTML element
-document. querySelector("html").style.backgroundColor = coffee.color;
+document.querySelector("html").style.backgroundColor = coffee.color;
 
 
 //change strong tags to our color
