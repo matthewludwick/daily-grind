@@ -19,7 +19,16 @@
 let myDate = new Date();
 let myDay = myDate.getDay();
 let today = "";
-//let myDay = 2; // Forcing it to be Tuesday for testing
+//use location object to access querystring (address bar)
+const queryString = window.location.search;
+    
+//output to console    
+console.log(queryString);
+    
+//separate query string parameters
+const urlParams = new URLSearchParams(queryString);
+
+
 
 
 switch(myDay){
@@ -85,20 +94,17 @@ case 1:
         case 5:
    		today = "Friday";
         coffee = {
-            name:"Bubble Tea",
-            pic:"bubble-tea.jpg",
-            alt:"A pic of a yummy bubble tea.",
-            color:"pink",
+            name:"Drip",
+            pic:"drip.jpg",
+            alt:"A pic of a drip coffee.",
+            color:"brown",
             day:"Friday",
-            desc:`I like me some bubble tea!`
+            desc:`I need a drip!`
 
         };
 
  	break;
 
- 	break;
-
- 	break;
 
  	default:
     	today = "Something went wrong!";
