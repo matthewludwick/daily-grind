@@ -75,12 +75,12 @@ case 1:
  	case 2:
    		today = "Tuesday";
         coffee = {
-            name:"Bubble Tea",
-            pic:"bubble-tea.jpg",
-            alt:"A pic of a yummy bubble tea.",
-            color:"pink",
+            name:"Caramel Latte",
+            pic:"caramel-latte.jpg",
+            alt:"A pic of a yummy Caramel Latte.",
+            color:"yellow",
             day:"Tuesday",
-            desc:`I like me some bubble tea!`
+            desc:`I love a Caramel Latte!`
 
         };
 
@@ -89,12 +89,12 @@ case 1:
     case 3:
    		today = "Wednesday";
         coffee = {
-            name:"Bubble Tea",
-            pic:"bubble-tea.jpg",
-            alt:"A pic of a yummy bubble tea.",
-            color:"pink",
+            name:"Cold Brew",
+            pic:"cold-brew.jpg",
+            alt:"A pic of a yummy Cold Brew.",
+            color:"maroon",
             day:"Wednesday",
-            desc:`I like me some bubble tea!`
+            desc:`Cold Brew for you!`
 
         };
 
@@ -103,12 +103,12 @@ case 1:
         case 4:
    		today = "Thursday";
         coffee = {
-            name:"Bubble Tea",
-            pic:"bubble-tea.jpg",
-            alt:"A pic of a yummy bubble tea.",
-            color:"pink",
+            name:"Frappaccino",
+            pic:"frappaccino.jpg",
+            alt:"A pic of a yummy Frappaccino.",
+            color:"gold",
             day:"Thursday",
-            desc:`I like me some bubble tea!`
+            desc:`Frappaccino?! Yes please!`
 
         };
         break;
@@ -116,12 +116,12 @@ case 1:
         case 5:
    		today = "Friday";
         coffee = {
-            name:"Drip",
-            pic:"drip.jpg",
-            alt:"A pic of a drip coffee.",
-            color:"brown",
+            name:"Mocha",
+            pic:"mocha.jpg",
+            alt:"A pic of a Mocha.",
+            color:"red",
             day:"Friday",
-            desc:`I need a drip!`
+            desc:`I need a Mocha now!!`
 
         };
 
@@ -130,12 +130,12 @@ case 1:
         case 6:
    		today = "Saturday";
         coffee = {
-            name:"Drip",
-            pic:"drip.jpg",
-            alt:"A pic of a drip coffee.",
-            color:"brown",
+            name:"Pumpkin Spice Latte",
+            pic:"Pumpkin-spice-latte.jpg",
+            alt:"A pic of a Pumpkin Spice Latte.",
+            color:"blue",
             day:"Saturday",
-            desc:`I need a drip!`
+            desc:`MmmmMmm Pumpkin Spice Latte!`
 
         };
 
