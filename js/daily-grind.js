@@ -50,9 +50,13 @@ switch(myDay){
 
 console.log(coffee);
 
-alert(today);
+//alert(today);
 
+//adds coffee to page
 document.getElementById(coffee-cup).innerHTML = coffeeTemplate(coffee);
+
+//change background color of HTML element
+document. querySelector("html").style.backgroundColor = coffee.color;
 
 function coffeeTemplate(coffee){
     let myReturn = "";
