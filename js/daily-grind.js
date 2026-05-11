@@ -33,9 +33,20 @@ const urlParams = new URLSearchParams(queryString);
 
 switch(myDay){
 
- 	case 0:
-    		today =  "Sunday";
- 	break;
+ 	 case 0:
+   		today = "Sunday";
+        coffee = {
+            name:"Drip",
+            pic:"drip.jpg",
+            alt:"A pic of a drip coffee.",
+            color:"brown",
+            day:"Sunday",
+            desc:`I need a drip!`
+
+        };
+
+ 	    break;
+ 	
 
 case 1:
    		today = "Monday";
@@ -79,6 +90,8 @@ case 1:
 
         };
 
+        break;
+
         case 4:
    		today = "Thursday";
         coffee = {
@@ -90,6 +103,7 @@ case 1:
             desc:`I like me some bubble tea!`
 
         };
+        break;
 
         case 5:
    		today = "Friday";
@@ -103,7 +117,21 @@ case 1:
 
         };
 
- 	break;
+        break;
+
+        case 6:
+   		today = "Saturday";
+        coffee = {
+            name:"Drip",
+            pic:"drip.jpg",
+            alt:"A pic of a drip coffee.",
+            color:"brown",
+            day:"Saturday",
+            desc:`I need a drip!`
+
+        };
+
+ 	    break;
 
 
  	default:
