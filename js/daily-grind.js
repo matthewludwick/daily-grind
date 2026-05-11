@@ -16,10 +16,10 @@
 
 
 
-//let myDate = new Date();
-//let myDay = myDate.getDay();
+let myDate = new Date();
+let myDay = myDate.getDay();
 let today = "";
-let myDay = 2; // Forcing it to be Tuesday for testing
+//let myDay = 2; // Forcing it to be Tuesday for testing
 
 
 switch(myDay){
@@ -49,4 +49,22 @@ switch(myDay){
 
 
 console.log(coffee);
+
 alert(today);
+
+document.getElementById(coffee-cup).innerHTML = coffeeTemplate(coffee);
+
+function coffeeTemplate(coffee){
+    let myReturn = "";
+
+    myReturn += `
+   <h2><p>
+            <img src="images/${coffee.pic}" alt="${coffee.alt}" id="coffee">
+            <strong>${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong>${coffee.name</strong> 
+            ${coffee.desc}
+            </p>
+</h2>
+    `;
+
+    return myReturn;
+}
