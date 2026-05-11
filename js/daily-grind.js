@@ -78,7 +78,7 @@ case 1:
             name:"Caramel Latte",
             pic:"caramel-latte.jpg",
             alt:"A pic of a yummy Caramel Latte.",
-            color:"yellow",
+            color:"#78632b",
             day:"Tuesday",
             desc:`I love a Caramel Latte!`
 
@@ -92,7 +92,7 @@ case 1:
             name:"Cold Brew",
             pic:"cold-brew.jpg",
             alt:"A pic of a yummy Cold Brew.",
-            color:"maroon",
+            color:"#040300",
             day:"Wednesday",
             desc:`Cold Brew for you!`
 
@@ -106,7 +106,7 @@ case 1:
             name:"Frappaccino",
             pic:"frappaccino.jpg",
             alt:"A pic of a yummy Frappaccino.",
-            color:"gold",
+            color:"#d5c390",
             day:"Thursday",
             desc:`Frappaccino?! Yes please!`
 
@@ -119,7 +119,7 @@ case 1:
             name:"Mocha",
             pic:"mocha.jpg",
             alt:"A pic of a Mocha.",
-            color:"red",
+            color:"#411900",
             day:"Friday",
             desc:`I need a Mocha now!!`
 
@@ -131,9 +131,9 @@ case 1:
    		today = "Saturday";
         coffee = {
             name:"Pumpkin Spice Latte",
-            pic:"Pumpkin-spice-latte.jpg",
+            pic:"pumpkin-spice-latte.jpg",
             alt:"A pic of a Pumpkin Spice Latte.",
-            color:"blue",
+            color:"#bd5d04",
             day:"Saturday",
             desc:`MmmmMmm Pumpkin Spice Latte!`
 
