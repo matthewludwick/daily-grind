@@ -35,7 +35,7 @@ if(urlParams.has("day")){
 }
 
 //turn string into integer
-    myDay = parseInt();
+    myDay = parseInt(myDay);
 
 
 
@@ -153,7 +153,7 @@ console.log(coffee);
 //alert(today);
 
 //adds coffee to page
-document.getElementById(coffee-cup).innerHTML = coffeeTemplate(coffee);
+document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
 
 //change background color of HTML element
 document. querySelector("html").style.backgroundColor = coffee.color;
@@ -167,15 +167,15 @@ document.querySelectorAll("#coffee-cup strong").forEach(el => {
 
 function coffeeTemplate(coffee){
     let myReturn = "";
-
     myReturn += `
+
    <h2><p>
             <img src="images/${coffee.pic}" alt="${coffee.alt}" id="coffee">
             <strong>${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong>${coffee.name</strong> 
             ${coffee.desc}
             </p>
-</h2>
+    </h2>
     `;
-
+            }
     return myReturn;
 }
