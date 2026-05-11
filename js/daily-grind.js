@@ -171,11 +171,11 @@ function coffeeTemplate(coffee){
 
    <h2><p>
             <img src="images/${coffee.pic}" alt="${coffee.alt}" id="coffee">
-            <strong>${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong>${coffee.name</strong> 
+            <strong>${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong>${coffee.name}</strong> 
             ${coffee.desc}
             </p>
     </h2>
     `;
-            }
+            
     return myReturn;
 }
